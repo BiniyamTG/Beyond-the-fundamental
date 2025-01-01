@@ -5,18 +5,14 @@ function CalvinismNote() {
   return (
     <div className="note-container">
       {/* YouTube Video Thumbnail */}
-      <div className="video-thumbnail">
-        <a
-          href="https://www.youtube.com/watch?v=EeSx7QlWAzQ&list=PLY2G1Gk_v1wOFzOk5PogZnPCioanrblrz"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src="https://img.youtube.com/vi/EeSx7QlWAzQ/maxresdefault.jpg"
-            alt="Calvinism Video Thumbnail"
-            className="thumbnail-image"
-          />
-        </a>
+      <div className="video-container">
+        <iframe
+          src="https://www.youtube.com/embed/EeSx7QlWAzQ?autoplay=0&rel=0"
+          title="Calvinism Video"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          className="video-iframe"
+        ></iframe>
       </div>
 
       <h1 className="main-title">Calvinism 101</h1>
